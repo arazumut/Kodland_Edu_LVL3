@@ -5,6 +5,7 @@ def add_task(description):
     return "Görev başarıyla eklendi."
 
 def delete_task(task_id):
+    
     execute_query("DELETE FROM tasks WHERE id = ?", (task_id,))
     return "Görev başarıyla silindi."
 
