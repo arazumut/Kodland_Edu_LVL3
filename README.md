@@ -13,4 +13,5 @@ Görev Silme: Kullanıcılar !delete_task <görev ID> komutunu kullanarak mevcut
 Görevleri Görüntüleme: Kullanıcılar !show_tasks komutunu kullanarak tüm görevleri listeleyebilirler.
 Görev Tamamlama: Kullanıcılar !complete_task <görev ID> komutunu kullanarak görevleri tamamlanmış olarak işaretleyebilirler.
 
+
 Bot, SQLite veritabanı kullanarak görevleri saklar ve yönetir. Botun çalışması için bir Discord bot tokenine ihtiyaç vardır.
