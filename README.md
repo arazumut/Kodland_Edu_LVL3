@@ -7,6 +7,7 @@ Bu proje, Discord botu olarak çalışan bir görev yönetim sistemidir. Bot, ku
 
 #Kodland firmasının Python Level3 kursunu verebilmek için programlanmıştır.
 
+
 Görev Ekleme: Kullanıcılar !add_task <görev açıklaması> komutunu kullanarak yeni görevler ekleyebilirler.
 Görev Silme: Kullanıcılar !delete_task <görev ID> komutunu kullanarak mevcut görevleri silebilirler.
 Görevleri Görüntüleme: Kullanıcılar !show_tasks komutunu kullanarak tüm görevleri listeleyebilirler.
