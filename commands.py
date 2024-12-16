@@ -4,6 +4,8 @@ def add_task(description):
     execute_query("INSERT INTO tasks (description) VALUES (?)", (description,))
     return "Görev başarıyla eklendi."
 
+# Produced By K.Umut Araz
+
 def delete_task(task_id):
     execute_query("DELETE FROM tasks WHERE id = ?", (task_id,))
     return "Görev başarıyla silindi."

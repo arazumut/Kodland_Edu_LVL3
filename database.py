@@ -13,6 +13,8 @@ def init_db():
     conn.commit()
     conn.close()
 
+    # Produced By K.Umut Araz
+
 def execute_query(query, params=()):
     conn = sqlite3.connect("tasks.db")
     cursor = conn.cursor()
