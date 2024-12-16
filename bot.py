@@ -3,6 +3,8 @@ from discord.ext import commands
 from commands import add_task, delete_task, show_tasks, complete_task
 from database import init_db
 
+# Produced By K.Umut Araz
+
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
