@@ -12,7 +12,6 @@ def init_db():
     """)
     conn.commit()
     conn.close()
-    
 
 def execute_query(query, params=()):
     conn = sqlite3.connect("tasks.db")
