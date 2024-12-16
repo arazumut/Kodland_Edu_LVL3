@@ -1,17 +1,24 @@
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-  </a> 
+# Discord Görev Yönetim Botu
 
+Bu proje, küçük ekiplerde görevleri yönetmeye yardımcı olacak bir Discord botudur. Bot, görev ekleme, silme, görüntüleme ve tamamlama yeteneklerine sahiptir. Tüm veriler bir SQLite veritabanında saklanır.
 
-Bu proje, Discord botu olarak çalışan bir görev yönetim sistemidir. Bot, kullanıcıların Discord üzerinden görev eklemelerine, silmelerine, görüntülemelerine ve tamamlamalarına olanak tanır. İşte projenin ana işlevleri:
+## Kurulum
 
-#Kodland firmasının Python Level3 kursunu verebilmek için programlanmıştır.
+1. Bu projeyi klonlayın:
+    ```sh
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
 
+2. Gerekli bağımlılıkları yükleyin:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-Görev Ekleme: Kullanıcılar !add_task <görev açıklaması> komutunu kullanarak yeni görevler ekleyebilirler.
-Görev Silme: Kullanıcılar !delete_task <görev ID> komutunu kullanarak mevcut görevleri silebilirler.
-Görevleri Görüntüleme: Kullanıcılar !show_tasks komutunu kullanarak tüm görevleri listeleyebilirler.
-Görev Tamamlama: Kullanıcılar !complete_task <görev ID> komutunu kullanarak görevleri tamamlanmış olarak işaretleyebilirler.
+3. [bot.py](http://_vscodecontentref_/7) dosyasındaki [bot.run("Your Bot Token")](http://_vscodecontentref_/8) satırında `Your Bot Token` kısmını kendi Discord bot tokeniniz ile değiştirin.
 
+## Kullanım
 
-Bot, SQLite veritabanı kullanarak görevleri saklar ve yönetir. Botun çalışması için bir Discord bot tokenine ihtiyaç vardır.
+Botu başlatmak için:
+```sh
+python bot.py
