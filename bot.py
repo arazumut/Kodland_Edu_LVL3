@@ -6,6 +6,7 @@ from database import init_db
 # Produced By K.Umut Araz
 
 intents = discord.Intents.default()
+intents.messages = True  # Mesajları işleyebilmek için
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
@@ -34,4 +35,4 @@ async def complete_task(ctx, task_id: int):
     await ctx.send(message)
 
 # Bot tokeninizi buraya girin
-bot.run("Your Bot Token")
+bot.run("TOKEN")
