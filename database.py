@@ -12,6 +12,7 @@ def init_db():
     """)
     conn.commit()
     conn.close()
+    
 
     # Produced By K.Umut Araz
 
