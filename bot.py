@@ -5,6 +5,7 @@ from database import init_db
 
 # Produced By K.Umut Araz
 
+
 intents = discord.Intents.default()
 intents.messages = True  # Mesajları işleyebilmek için
 bot = commands.Bot(command_prefix="!", intents=intents)
